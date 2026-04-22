@@ -74,6 +74,70 @@ int main(){
    } else {
      printf("Estado2 é o vencedor\n");
    } 
+    if (estado1 > estado2){
+      printf("Carta 1 venceu\n");
+    } else if (estado1 < estado2) {
+      printf("Carta 2 venceu\n");
+    } else {
+      printf("Houve um empate\n");
+    } 
+     if (cidade1 > cidade2){
+      printf("Cidade 1 venceu\n");
+     } else if (cidade1 < cidade2) {
+       printf("cidade 2 venceu\n");
+     } else {
+      printf("Houve um empate\n");
+     }
+     if (populacao1 > populacao2){
+      printf("Populacao 1 venceu\n");
+     } else if (populacao1 < populacao2) {
+       printf("populacao 2 venceu\n");
+     } else {
+      printf("Houve um empate\n");
+     }
+     if (codigo1 > codigo2){
+      printf("Codigo 1 venceu\n");
+     } else if (codigo1 < codigo2) {
+       printf("codigo 2 venceu\n");
+     } else {
+      printf("Houve um empate\n");
+     }
+     if (ponto_turistico1 > ponto_turistico2){
+      printf("Ponto turistico 1 venceu\n");
+     } else if (ponto_turistico1 < ponto_turistico2) {
+       printf("Ponto turistico 2 venceu\n");
+     } else {
+      printf("Houve um empate\n");
+     }
+     if (area1 > area2){
+      printf("Area 1 venceu\n");
+     } else if (area1 < area2) {
+       printf("Area 2 venceu\n");
+     } else {
+      printf("Houve um empate\n");
+     }
+     if (pib1 > pib2){
+      printf("Pib 1 venceu\n");
+     } else if (pib1 < pib2) {
+       printf("Pib 2 venceu\n");
+     } else {
+      printf("Houve um empate\n");
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 return 0;
 } 
